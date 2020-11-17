@@ -2,6 +2,7 @@ import React from 'react';
 import {StyleSheet,Text,View} from 'react-native';
 
 
+// This component is used to provide header styling in mobile application i.e. title
 export default function Header({navigation, title})
 {
 
@@ -15,7 +16,10 @@ export default function Header({navigation, title})
             </View>
         </View>
     );
+
 }
+
+// Styling of the title
 const styles=StyleSheet.create({
 
     header:{
